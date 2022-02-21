@@ -29,3 +29,5 @@ use repeating_future::FutureStream;
 ## Easy example
 See [Example](examples/stream.rs)
 Or for a manual Stream implementation: [Example](examples/manual.rs)
+
+Try `cargo run --example manual` or `cargo run --example stream`
