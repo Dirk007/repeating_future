@@ -18,7 +18,12 @@ support [futures::Stream]. So all examples are made for this for the moment.
 
 Add this crate to your Cargo.toml
 ```
-use repeating_future::{impl_getter, RepeatingFuture};
+repeating_future = "0.1.0"
+```
+
+and use it in your main.rs:
+```
+use repeating_future::FutureStream;
 ```
 
 ## Easy example
