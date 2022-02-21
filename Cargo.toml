@@ -1,0 +1,14 @@
+[package]
+name = "repeating_future"
+version = "0.1.0"
+edition = "2021"
+description = "[RepeatingFuture] is a [Future] that can call an async function of an object over and over again."
+authors = ["Dirk Faust <dirk@faustbande.de>"]
+license = "MIT"
+repository = "https://github.com/Dirk007/repeating_future"
+keywords = ["future", "async", "stream"]
+
+[dependencies]
+futures = "0.3.21"
+futures-lite = "1.12.0"
+pin-utils = "0.1.0"
