@@ -16,13 +16,12 @@ futures = "0.3.21"
 futures-lite = "1.12.0"
 pin-utils = "0.1.0"
 
-rumqttc = {version="0.10.0", optional = true}
 tokio = { version = "1.17.0", features = ["rt-multi-thread"], optional = true }
 anyhow = { version ="1.0.53", optional = true}
 pin-project = { version ="1.0.10", optional = true}
 
 [dev-dependencies]
-rumqttc = "0.10.0"
+rumqttc = "0.11.0"
 tokio = { version = "1.17.0", features = ["rt-multi-thread"] }
 anyhow = "1.0.53"
 log = "0.4.14"
@@ -35,4 +34,4 @@ pin-utils = "0.1.0"
 
 [features]
 default = ["streams"]
-streams = ["rumqttc", "tokio", "anyhow",  "pin-project"]
+streams = ["tokio", "anyhow",  "pin-project"]
