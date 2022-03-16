@@ -11,6 +11,12 @@ keywords = ["future", "async", "stream"]
 [[example]]
 name = "manual"
 
+[[example]]
+name = "slow_counter"
+
+[[example]]
+name = "stream"
+
 [dependencies]
 futures = "0.3.21"
 futures-lite = "1.12.0"
