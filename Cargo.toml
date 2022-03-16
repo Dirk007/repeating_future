@@ -1,6 +1,6 @@
 [package]
 name = "repeating_future"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "[RepeatingFuture] is a [Future] that can call an async function of an object over and over again."
 authors = ["Dirk Faust <dirk@faustbande.de>"]
